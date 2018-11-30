@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E809C8AB21B1CC8200C1241D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809C8AA21B1CC8200C1241D /* AppDelegate.swift */; };
+		E809C8AD21B1CC8200C1241D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809C8AC21B1CC8200C1241D /* ViewController.swift */; };
+		E809C8B021B1CC8200C1241D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E809C8AE21B1CC8200C1241D /* Main.storyboard */; };
+		E809C8B221B1CC8300C1241D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E809C8B121B1CC8300C1241D /* Assets.xcassets */; };
+		E809C8B521B1CC8300C1241D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E809C8B321B1CC8300C1241D /* LaunchScreen.storyboard */; };
+		E809C8C021B1CC8300C1241D /* TermiteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E809C8BF21B1CC8300C1241D /* TermiteBookTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E809C8BC21B1CC8300C1241D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E809C89F21B1CC8200C1241D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E809C8A621B1CC8200C1241D;
+			remoteInfo = TermiteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E809C8A721B1CC8200C1241D /* TermiteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermiteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E809C8AA21B1CC8200C1241D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E809C8AC21B1CC8200C1241D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E809C8AF21B1CC8200C1241D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E809C8B121B1CC8300C1241D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E809C8B421B1CC8300C1241D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E809C8B621B1CC8300C1241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E809C8BB21B1CC8300C1241D /* TermiteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TermiteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E809C8BF21B1CC8300C1241D /* TermiteBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermiteBookTests.swift; sourceTree = "<group>"; };
+		E809C8C121B1CC8300C1241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E809C8A421B1CC8200C1241D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E809C8B821B1CC8300C1241D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E809C89E21B1CC8100C1241D = {
+			isa = PBXGroup;
+			children = (
+				E809C8A921B1CC8200C1241D /* TermiteBook */,
+				E809C8BE21B1CC8300C1241D /* TermiteBookTests */,
+				E809C8A821B1CC8200C1241D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E809C8A821B1CC8200C1241D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E809C8A721B1CC8200C1241D /* TermiteBook.app */,
+				E809C8BB21B1CC8300C1241D /* TermiteBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E809C8A921B1CC8200C1241D /* TermiteBook */ = {
+			isa = PBXGroup;
+			children = (
+				E809C8AA21B1CC8200C1241D /* AppDelegate.swift */,
+				E809C8AC21B1CC8200C1241D /* ViewController.swift */,
+				E809C8AE21B1CC8200C1241D /* Main.storyboard */,
+				E809C8B121B1CC8300C1241D /* Assets.xcassets */,
+				E809C8B321B1CC8300C1241D /* LaunchScreen.storyboard */,
+				E809C8B621B1CC8300C1241D /* Info.plist */,
+			);
+			path = TermiteBook;
+			sourceTree = "<group>";
+		};
+		E809C8BE21B1CC8300C1241D /* TermiteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				E809C8BF21B1CC8300C1241D /* TermiteBookTests.swift */,
+				E809C8C121B1CC8300C1241D /* Info.plist */,
+			);
+			path = TermiteBookTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E809C8A621B1CC8200C1241D /* TermiteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E809C8C421B1CC8300C1241D /* Build configuration list for PBXNativeTarget "TermiteBook" */;
+			buildPhases = (
+				E809C8A321B1CC8200C1241D /* Sources */,
+				E809C8A421B1CC8200C1241D /* Frameworks */,
+				E809C8A521B1CC8200C1241D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TermiteBook;
+			productName = TermiteBook;
+			productReference = E809C8A721B1CC8200C1241D /* TermiteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E809C8BA21B1CC8300C1241D /* TermiteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E809C8C721B1CC8300C1241D /* Build configuration list for PBXNativeTarget "TermiteBookTests" */;
+			buildPhases = (
+				E809C8B721B1CC8300C1241D /* Sources */,
+				E809C8B821B1CC8300C1241D /* Frameworks */,
+				E809C8B921B1CC8300C1241D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E809C8BD21B1CC8300C1241D /* PBXTargetDependency */,
+			);
+			name = TermiteBookTests;
+			productName = TermiteBookTests;
+			productReference = E809C8BB21B1CC8300C1241D /* TermiteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E809C89F21B1CC8200C1241D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SocialTermite;
+				TargetAttributes = {
+					E809C8A621B1CC8200C1241D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E809C8BA21B1CC8300C1241D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E809C8A621B1CC8200C1241D;
+					};
+				};
+			};
+			buildConfigurationList = E809C8A221B1CC8200C1241D /* Build configuration list for PBXProject "TermiteBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E809C89E21B1CC8100C1241D;
+			productRefGroup = E809C8A821B1CC8200C1241D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E809C8A621B1CC8200C1241D /* TermiteBook */,
+				E809C8BA21B1CC8300C1241D /* TermiteBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E809C8A521B1CC8200C1241D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E809C8B521B1CC8300C1241D /* LaunchScreen.storyboard in Resources */,
+				E809C8B221B1CC8300C1241D /* Assets.xcassets in Resources */,
+				E809C8B021B1CC8200C1241D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E809C8B921B1CC8300C1241D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E809C8A321B1CC8200C1241D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E809C8AD21B1CC8200C1241D /* ViewController.swift in Sources */,
+				E809C8AB21B1CC8200C1241D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E809C8B721B1CC8300C1241D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E809C8C021B1CC8300C1241D /* TermiteBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E809C8BD21B1CC8300C1241D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E809C8A621B1CC8200C1241D /* TermiteBook */;
+			targetProxy = E809C8BC21B1CC8300C1241D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E809C8AE21B1CC8200C1241D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E809C8AF21B1CC8200C1241D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E809C8B321B1CC8300C1241D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E809C8B421B1CC8300C1241D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E809C8C221B1CC8300C1241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E809C8C321B1CC8300C1241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E809C8C521B1CC8300C1241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N323V8M9LM;
+				INFOPLIST_FILE = TermiteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialTermite.TermiteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E809C8C621B1CC8300C1241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N323V8M9LM;
+				INFOPLIST_FILE = TermiteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialTermite.TermiteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E809C8C821B1CC8300C1241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N323V8M9LM;
+				INFOPLIST_FILE = TermiteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialTermite.TermiteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TermiteBook.app/TermiteBook";
+			};
+			name = Debug;
+		};
+		E809C8C921B1CC8300C1241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N323V8M9LM;
+				INFOPLIST_FILE = TermiteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SocialTermite.TermiteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TermiteBook.app/TermiteBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E809C8A221B1CC8200C1241D /* Build configuration list for PBXProject "TermiteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E809C8C221B1CC8300C1241D /* Debug */,
+				E809C8C321B1CC8300C1241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E809C8C421B1CC8300C1241D /* Build configuration list for PBXNativeTarget "TermiteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E809C8C521B1CC8300C1241D /* Debug */,
+				E809C8C621B1CC8300C1241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E809C8C721B1CC8300C1241D /* Build configuration list for PBXNativeTarget "TermiteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E809C8C821B1CC8300C1241D /* Debug */,
+				E809C8C921B1CC8300C1241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E809C89F21B1CC8200C1241D /* Project object */;
+}
