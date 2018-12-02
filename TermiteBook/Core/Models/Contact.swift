@@ -6,9 +6,10 @@
 //  Copyright © 2018 SocialTermite. All rights reserved.
 //
 
+import Contacts
 
-extension BookModels {
-    struct User: Equatable {
+extension ContactModels {
+    struct Contact: Equatable {
         var fullName: String
         var firstName: String
         var lastName: String
@@ -17,5 +18,11 @@ extension BookModels {
         var age: Int
         var phones: [Phone]
         var emails: [Email]
+    }
+}
+
+extension ContactModels.Contact {
+    func cnContact() -> CNContact? {
+        return CNContact()
     }
 }

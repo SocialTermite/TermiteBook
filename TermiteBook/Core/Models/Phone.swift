@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension BookModels {
+extension ContactModels {
     struct Phone: Equatable {
         var fullNumber: String
         var code: String

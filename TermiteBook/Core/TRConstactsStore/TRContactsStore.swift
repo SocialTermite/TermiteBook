@@ -7,15 +7,16 @@
 //
 
 
-class BookFacade {
+class TRContactsStore {
     
-    
-    func users() -> [BookModels.User] {
+    func contacts() -> [ContactModels.Contact] {
         #warning("TODO: Implement")
+        let some = CNContactsStoreWrapper().fetchAllContacts()
+        print(some)
         return []
     }
     
-    func save(_ user: BookModels.User) {
+    func save(_ contact: ContactModels.Contact) {
         #warning("TODO: Implement")
     }
 }

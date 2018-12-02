@@ -7,7 +7,7 @@
 //
 
 
-extension BookModels {
+extension ContactModels {
     struct Email: Equatable {
         var email: String
         var service: String

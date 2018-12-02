@@ -1,5 +1,5 @@
 //
-//  BookModels.swift
+//  ContactModels.swift
 //  TermiteBook
 //
 //  Created by Konstantin Bondar on 30/11/2018.
@@ -7,6 +7,6 @@
 //
 
 
-struct BookModels {
+struct ContactModels {
     
 }
